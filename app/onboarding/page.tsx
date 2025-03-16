@@ -52,7 +52,7 @@ export default function OnboardingRoute() {
                 name={fields.fullName.name}
                 defaultValue={fields.fullName.initialValue as string}
                 key={fields.fullName.key}
-                placeholder="Brandon Figueroa"
+                placeholder="Brandon Nurmagomedov"
               />
               <p className="text-red-500 text-sm">{fields.fullName.errors}</p>
             </div>
